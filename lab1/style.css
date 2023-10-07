@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  background-color: rgb(244, 244, 236);
+  background-image: url(img/backk.jpg);
+  background-size: cover;
+
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.nav {
+  font-size: 24px;
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.nav a {
+  text-decoration: none;
+  color: rgb(17, 17, 16);
+  transition: color 0.3s;
+  text-shadow: 1.5px 1.5px 1.5px #f8f4f4;
+}
+
+.nav a:hover {
+  color: rgb(227, 80, 198);
+}
+
+.block-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.mx-5 {
+  margin: 0 200px;
+}
+
+.mx-1 {
+  margin: 20px 0;
+}
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-just {
+  text-align: justify;
+}
+
+.mail {
+  padding: 5px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.mail:hover {
+  color: gray;
+  border: 2px dashed gray;
+}
+
+.btn {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+.btn:hover {
+  background-color: rgb(227, 80, 198);
+  color: white;
+  border-color: rgb(227, 80, 198);
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+footer {
+  font-family: 'Playfair Display', serif;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #090707;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.title-name{
+  color: white;
+}
+.t1{
+  color: white;
+}
+
