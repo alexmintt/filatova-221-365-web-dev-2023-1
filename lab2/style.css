@@ -1,0 +1,250 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  background-color: rgb(99, 88, 153);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 200px;
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.nav {
+  font-size: 24px;
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.nav a {
+  text-decoration: none;
+  color: rgb(17, 17, 16);
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: rgb(227, 80, 198);
+}
+
+.block-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.mx-5 {
+  margin: 0 200px;
+}
+
+.mx-1 {
+  margin: 10px 0;
+}
+
+
+.text-just {
+  text-align: justify;
+}
+
+.mail {
+  padding: 5px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.mail:hover {
+  color: gray;
+  border: 2px dashed gray;
+}
+
+.btn {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+.btn:hover {
+  background-color: rgb(227, 80, 198);
+  color: white;
+  border-color: rgb(227, 80, 198);
+}
+
+.btr {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(17, 17, 16);
+  transition: color 0.3s;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+footer {
+  font-family: 'Playfair Display', serif;
+  margin-top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #090707;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  height: 200px;
+}
+.title-name{
+  color: white;
+}
+.t1{
+  color: white;
+}
+
+
+
+.cntr{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.form-group{
+  margin: 10px 0;
+}
+ 
+.form {
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+ 
+input[type="submit"] {
+  background-color: rgb(227, 80, 198);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+
+
+.background-image {
+  background-image: url(img/damn.jpg); /* Укажите путь к вашему фоновому изображению */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh; /* Занимает всю высоту экрана */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили для контейнера формы */
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px; /* Ширина контейнера формы */
+  text-align: center;
+}
+
+/* Стили для формы и её элементов */
+form {
+  margin: 0;
+}
+
+.frm-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.log {
+  display: block;
+}
+
+.password {
+  display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  width: 98%; /* Ширина кнопки равна ширине контейнера */
+  padding: 10px;
+  background-color: rgb(227, 80, 198);; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста кнопки */
+  border: none;
+  border-radius: 3px;
+}
+
+.tc{
+  text-align: center;
+    margin-top: 20px;
+}

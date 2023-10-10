@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Genshin Impact</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+<header class="header">
+    <div class="container">
+    <nav class="nav">
+        <a href="/">Главная</a>
+    </nav>
+    </div>
+    <div class="mx-1 text-center">
+    <h1 class="title-name">Genshin Impact</h1>
+    </div>
+</header>
+    <section class="form" id="form">
+    <h2 class="text-center">Форма обратной связи</h2>
+    <div class="cntr">
+    <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="fio">ФИО</label>
+            <input type="text" id="fio" name="fio" placeholder="Введите ФИО" value="Милова Мари Ивановна" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Введите email" value="mari@milova.ru" required>
+        </div>
+        <fieldset>
+            <legend>Категория обращения</legend>
+            <select name="type" id="type">
+                <option value="positive">Благодарность</option>
+                <option value="negative">Жалоба</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Как Вы узнали о нас?</legend>
+            <div class="form-group">
+
+                <input type="radio" name="source" id="adv" value="adv" checked>
+                <label for="adv">Рассылка</label>
+            </div>
+            <div class="form-group">
+                
+                <input type="radio" name="source" id="friends" value="friends">
+                <label for="friends">Друзья</label>
+            </div>
+            <div class="form-group">
+                
+                <input type="radio" name="source" id="ss" value="ss">
+                <label for="ss">Социальные сети</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Текст сообщения</legend>
+            <textarea name="message" id="message" cols="10" rows="10" placeholder="Введите текст сообщения"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Вложение</legend>
+            <input type="file" name="file" id="file">
+        </fieldset>
+        <div class="form-group">
+            <input type="checkbox" name="agree" id="agree">
+            <label for="email">Даю согласие на обработку персональных данных</label>
+        </div>
+        <input type="submit" value="Отправить">
+    </form>
+    </div>
+    </section>
+<footer class="footer">
+    <p>Контактная информация</p>
+    <p>8-495-988-09-16</p>
+    <p>filatova.alex04@gmail.com</p>
+    <p class="text-center mx-5">&copy; Любое использование контента без письменного разрешения запрещено</p>
+</footer>
+</body>
+
+</html>

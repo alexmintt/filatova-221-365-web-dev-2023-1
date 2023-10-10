@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Genshin Impact</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+<header class="header">
+    <div class="container">
+    <nav class="nav">
+        <a href="/">Главная</a>
+    </nav>
+    </div>
+    <div class="mx-1 text-center">
+    <h1 class="title-name">Genshin Impact</h1>
+    </div>
+    <div class="tc">
+    <a class="btn" href="form.html">Форма обратной связи</a>
+</div>
+</header>
+<div class="background-image">
+    <div class="login-container">
+        <h2 class="text-center">Вход</h2>
+        <form action="https://httpbin.org/post" method="post">
+            <div class="frm-group">
+                <label for="log">Логин</label>
+                <input type="text" id="log" name="log" placeholder="Введите логин" required>
+            </div>
+            <div class="frm-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+            </div>
+            <div class="frm-group">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Запомнить меня</label>
+            </div>
+            <div class="frm-group text-center">
+                <input type="submit" value="Войти">
+            </div>
+        </form>
+    </div>
+</div>
+<footer class="footer">
+    <p>Контактная информация</p>
+    <p>8-495-988-09-16</p>
+    <p>filatova.alex04@gmail.com</p>
+    <p class="text-center mx-5">&copy; Любое использование контента без письменного разрешения запрещено</p>
+</footer>
+</body>
+
+</html>
